@@ -1,6 +1,6 @@
 # Packer templates
 
-[![pipeline status](https://gitlab.com/rabbids-incubator/packer-templates/badges/main/pipeline.svg)](https://gitlab.com/rabbids-incubator/packer-templates/-/commits/main)
+[![pipeline status](https://gitlab.com/devpro-labs/packer-templates/badges/main/pipeline.svg)](https://gitlab.com/devpro-labs/packer-templates/-/commits/main)
 
 Packer templates to build and publish machines images.
 
