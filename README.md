@@ -4,9 +4,7 @@
 
 Packer templates to build and publish machines images.
 
-## How to use
-
-### Vagrant boxes
+## Vagrant boxes
 
 * Vagrant must be installed
 
@@ -36,7 +34,7 @@ rm -r .vagrant/
 rm Vagrantfile
 ```
 
-## How to contribute
+## Contibute
 
 * Review the [design documentation](./docs/design.md)
 
@@ -46,9 +44,13 @@ Template folder | Image type | System
 --------------- | ---------- | ------
 [`vagrant-ubuntu`](./vagrant-ubuntu/README.md) | Vagrant box | Ubuntu
 
-## How to run locally the GitLab pipeline
+## Run locally the GitLab pipeline
 
 ```bash
 mkdir -p .gitlab/runner/local
 docker run --rm --name gitlab-runner -v /var/run/docker.sock:/var/run/docker.sock -v $PWD/.gitlab/runner/local/config:/etc/gitlab-runner -v $PWD:$PWD --workdir $PWD gitlab/gitlab-runner exec shell ci
 ```
+
+## Samples
+
+* [Getting started Docker](samples/getting-started-docker/README.md)
